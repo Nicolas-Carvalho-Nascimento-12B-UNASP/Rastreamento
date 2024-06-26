@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rastreamento - Audi RS6</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="logo">
+                <img src="assets/audilogo.png" alt="Logo da Audi">
+            </div>
+            <h1>Rastreamento do seu Audi</h1>
+            <div class="tracking-status">
+                <h2>Status Atual: <span id="status">Saiu para entrega</span></h2>
+                <p id="details">O pacote saiu para entrega e chegará em breve.</p>
+            </div>
+            <div class="tracking-timeline">
+                <h2>Informações</h2>
+                <ul id="timeline">
+                    <li class="completed">Pedido Confirmado</li>
+                    <li class="completed">Preparando para a Entrega</li>
+                    <li class="completed">Em trânsito - Saiu do país de origem</li>
+                    <li class="completed">Pendente: Chegou ao país de destino</li>
+                    <li class="current">Saiu para entrega</li>
+                    <li>Pendente: Entregue</li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>© Audi Brasil 2024</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
